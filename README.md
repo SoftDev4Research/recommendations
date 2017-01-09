@@ -27,7 +27,7 @@ Facilitate the discoverability of the open source software projects by registeri
   - Encourages software providers to think about the metadata that describes software as well as how to expose such metadata.
   - Increases the chances of collaboration, reuse, and improvement.
 
-  Examples of community registries of software metadata are bio.tools (Ison et al. 2016),(Ison et al. 2016) biojs.io (Gómez et al. 2013)(Corpas et al. 2014) and Omic Tools (Henry et al, 2014  http://database.oxfordjournals.org/content/2014/bau069) in the life sciences and DataCite (Brase, n.d.) as a generic metadata registry not just for data but software.  
+  Examples of community registries of software metadata are bio.tools (Ison et al. 2016),(Ison et al. 2016) biojs.io (Gómez et al. 2013)(Corpas et al. 2014) and Omic Tools (Henry et al, 2014  http://database.oxfordjournals.org/content/2014/bau069) in the life sciences and DataCite (Brase, n.d.) as a generic metadata registry not just for data but software.
 
 3. Adopt a license and comply with the licence of third-party dependencies
 Provide instructions and guidelines for other projects and software to use, modify and redistribute the software and the source code. Adopt a suitable Open Source license, include it in a publicly accessible source code repository, and ensure the software complies with the licenses of all third party dependencies. Providing a license: 
@@ -35,7 +35,7 @@ Provide instructions and guidelines for other projects and software to use, modi
   - Enables using the code in jurisdictions where “code with no license” means it cannot be used at all
   - Protects the software’s intellectual property
   - Provides a model for long-term sustainability by enabling legally well-founded contributions and reuse
-  We advise choosing a OSI-approved Open Source License following these guidelines unless your institution or project requires a different license. For reusability reasons, authors should disclose any patents and pending patent applications known to them affecting the software.  
+  We advise choosing a OSI-approved Open Source License following these guidelines unless your institution or project requires a different license. For reusability reasons, authors should disclose any patents and pending patent applications known to them affecting the software.
 
 4. Have a clear and transparent contribution, governance and communication processes
 Open sourcing your software does not mean the software has to be developed in a publicly collaborative manner. Although it is desirable, the OSS recommendations do not mandate a strategy for collaborating with the community. However projects should be clear and transparent about how to contribute to them as well as, their governance model, and their communication channels. Clarity on the project structure as well as its communication channels and ways to contribute:
