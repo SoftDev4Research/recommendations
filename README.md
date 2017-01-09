@@ -1,3 +1,7 @@
+---
+layout: post
+title: Blogging Like a Hacker
+--- 
 # Open Source Recommendations for Research Software
 
 Research software is crucial infrastructure that underpins and enables modern scientific endeavour, yet software is not always developed following standard engineering practices that ensure quality and sustainability. This manuscript does not aim to propose or endorse software development best practices but rather to provide simple recommendations that encourage adoption of existing best practices. These recommendations are designed around Open Source values providing practical suggestions of how to make research software and its source code more accessible, discoverable, reusable and transparent. This manuscript targets developers, but more importantly, it also targets organisations, projects, journals and funders that by adopting the recommendations will contribute to increasing quality and sustainability of research software.
