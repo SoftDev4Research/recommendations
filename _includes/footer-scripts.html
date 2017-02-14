@@ -1,0 +1,108 @@
+{% if layout.common-ext-js %}
+  {% for js in layout.common-ext-js %}
+	<script src="{{ js }}"></script>
+  {% endfor %}
+{% endif %}
+
+{% if page.use-datatables %}
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+  <script src="https://cdn.datatables.net/1.10.13/js/jquery.dataTables.min.js"></script>
+  <script src="https://cdn.datatables.net/1.10.13/js/dataTables.bootstrap.min.js"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/tabletop.js/1.5.1/tabletop.min.js'></script>
+  <script type="text/javascript">
+    var publicSpreadsheetUrl = 'https://docs.google.com/spreadsheets/d/1QXcy7lu_X-7NOl4cLgxFXIamWOUhnhpdmcmyeXmkEms/pubhtml';
+
+    $.fn.dataTableExt.afnFiltering.push(
+        function( oSettings, aData, iDataIndex ) {
+            var iColumn = 3;
+            var individualFilter = $('#Individual').prop("checked");
+            var projectFilter = $('#Project').prop("checked");
+            var organisationFilter = $('#Organisation').prop("checked");
+     
+            var iRepresenting = aData[iColumn];
+            if ( individualFilter && projectFilter && organisationFilter)
+            {
+                return true;
+            }
+            else if ( $('#' + iRepresenting).prop("checked") )
+            {
+                return true;
+            }
+            return false;
+        }
+    );
+
+    function init() {
+      Tabletop.init( { key: publicSpreadsheetUrl,
+                       callback: showInfo,
+                       simpleSheet: true } );
+    }
+
+    function createTableColumns(){
+        var tableColumns =   [
+        {"mDataProp": "Full name", "sTitle": "Full name", "sClass": "center"},
+        {"mDataProp": "Country", "sTitle": "Country", "sClass": "center"},
+        {"mDataProp": "Organisation/Project Name", "sTitle": "Organisation/<br />Project", "sClass": "center"},
+        {"mDataProp": "Representing", "sTitle": "Representing", "sClass": "center"},
+        {"mDataProp": "Endorsement", "sTitle": "End.", "sClass": "center", "orderable": false},
+        {"mDataProp": "Promotion", "sTitle": "Pro.", "sClass": "center", "orderable": false},
+        {"mDataProp": "Compliance", "sTitle": "Com.", "sClass": "center", "orderable": false},
+      ];
+        return tableColumns;
+    }
+
+    function showInfo(dataSource) {
+      var adoptionLevels = ['Endorsement', 'Promotion', 'Compliance'];
+      for (var i = 0; i < dataSource.length; i++) {
+        var item = dataSource[i];
+        for (var j = 0; j < adoptionLevels.length; j++) {
+          if (item['Level of adoption'].includes(adoptionLevels[j])) {
+            item[adoptionLevels[j]] = 'X';
+          } else {
+            item[adoptionLevels[j]] = '';
+          }
+        }
+      }
+      var oTable = $("#data-table-container").dataTable({
+          "iDisplayLength": 25,
+          "aaData": dataSource,
+          "aoColumns": createTableColumns()
+      });
+      $('#Individual, #Project, #Organisation').click( function() {
+          oTable.fnDraw();
+      });
+    }
+
+    window.addEventListener('DOMContentLoaded', init)
+  </script>
+{% endif %}
+
+{% if page.ext-js %}
+  {% for js in page.ext-js %}
+	<script src="{{ js }}"></script>
+  {% endfor %}
+{% endif %}
+
+{% if page.js %}
+  {% for js in page.js %}
+	<script src="{{ js | prepend: site.baseurl | replace: '//', '/' }}"></script>
+  {% endfor %}
+{% endif %}
+
+{% if layout.common-js %}
+  {% for js in layout.common-js %}
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    {% if js contains 'jquery' %}
+      <script>
+      	if (typeof jQuery == 'undefined') {
+      	  document.write('<script src="{{ js | prepend: site.baseurl | replace: "//", "/" }}"></scr' + 'ipt>');
+      	}
+      </script>
+    {% else %}
+	<script src="{{ js | prepend: site.baseurl | replace: '//', '/' }}"></script>
+    {% endif %}
+  {% endfor %}
+{% endif %}
+
+{% include google_analytics.html %}
