@@ -4,12 +4,12 @@
 # baseurl is the website's URL without the hostname
 
 # If you are building a simple GitHub user page (http://username.github.io) then use these settings:
-url: "http://recommendations.softdev4research.github.io"
-baseurl: ""
+#url: "https://softdev4research.github.io"
+#baseurl: ""
 
 # If you are building a GitHub project page then use these settings:
-#url: "http://username.github.io/projectname"
-#baseurl: "/projectname"
+url: "https://softdev4research.github.io/recommendations"
+baseurl: "/recommendations"
 
 # Of course don't forget to change the username and projectname to YOUR username and project
 
@@ -42,10 +42,10 @@ navbar-links:
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
-  name: Recommendations for Open Source Research Software
-  email: "osr4rs@domain.com"
+  name: Open Source Software Recommendations
+  email: "software-development-best-practices-group@elixir-europe.org"
 #  facebook: yourname  # eg. daattali
-  github: SoftDev4LS    # eg. daattali
+  github: SoftDev4Research    # eg. daattali
 #  twitter: yourname   # eg. daattali
 #  reddit: yourname    # eg. daattali
 #  google-plus: +yourname   # eg. +DeanAttali or 109424658772469020925
