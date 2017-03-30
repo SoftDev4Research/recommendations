@@ -1,7 +1,6 @@
 ---
 layout: page
 title: About
-subtitle: Recommendations for Open Source Research Software
 ---
 
 ## Background
