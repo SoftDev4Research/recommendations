@@ -14,3 +14,6 @@ Provide instructions and guidelines for other projects and software to use, modi
 <br><br>
 #### 4. Have a clear and transparent contribution, governance and communication processes ####
 Open sourcing your software does not mean the software has to be developed in a publicly collaborative manner. Although it is desirable, the OSS recommendations do not mandate a strategy for collaborating with the community. However projects should be clear and transparent about how to contribute to them as well as, their governance model, and their communication channels.
+
+#Reference
+(publication citation)
