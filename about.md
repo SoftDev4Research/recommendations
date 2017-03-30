@@ -8,7 +8,7 @@ In the past few decades, computer software has become essential in virtually eve
 
 Establishing and promoting best practices in research software development can improve it's quality and sustainability, and will lead to improved reproducibility and reusability of research results.
 
-We propose four simple recommendations aiming to raise the awareness of best practices and encouraging their adoption. These recommendations are designed around Open Source values, and provide practical suggestions that contribute to making research software and its source code more discoverable, reusable and transparent.
+We propose [four simple recommendations](index) aiming to raise the awareness of best practices and encouraging their adoption. These recommendations are designed around Open Source values, and provide practical suggestions that contribute to making research software and its source code more discoverable, reusable and transparent.
 
 ## How to contribute and get in touch
 To endorse the Recommendations go to the [Endorse section](endorse) and fill in a short online from. The [Supporters section](supporters) list individual researchers and organisations who have already endorsed the Recommendations.
@@ -20,7 +20,7 @@ The Recommendations have been developed by the [Open Source Software Working gro
 
 The group includes a wide range of stakeholders including developers, managers, researchers, funders, project coordinators and, in general, people who are concerned with the production of quality software for research in different scientific disciplines.
 
-More information about the Working Group and their outcomes: [https://github.com/SoftDev4LS/open-source-software](https://github.com/SoftDev4LS/open-source-software).
+More information about this Working Group and their outcomes can be found in the [SoftDev4Research GitHub site](https://github.com/SoftDev4Research/open-source-software).
 
 ## Next steps
 Proposed next steps:
