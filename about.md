@@ -26,7 +26,7 @@ More information about this Working Group and their outcomes can be found in the
 Proposed next steps:
  - Work towards adoption (endorsement, promotion and compliance)
  - Extend the Recommendations to become truly [FAIR](http://www.nature.com/articles/sdata201618) recommendations
- - Align specific best practices to the recommendations
+ - Align specific best practices (eg. documentation) to the recommendations
  - Make this effort part of a wider initiative like Force11 with links to other relevant initiatives like [WSSSPE](http://wssspe.researchcomputing.org.uk/) and [RDA](https://www.rd-alliance.org/)
 
 We will have further discussions about the direction of this group in the following meetings:
