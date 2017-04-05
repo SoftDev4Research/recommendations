@@ -14,10 +14,10 @@ baseurl: "/recommendations"
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: Recommendations for Open Source Research Software
+title: Four simple recommendations to encourage best practices in research software
 
 # Short description of your site
-description: A virtual proof that name is awesome!
+description: We propose four simple recommendations aiming to raise the awareness of best practices and encouraging their adoption. These recommendations are designed around Open Source values, and provide practical suggestions that contribute to making research software and its source code more discoverable, reusable and transparent.
 
 # --- Navigation bar options --- #
 
