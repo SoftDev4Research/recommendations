@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About
+subtitle: Recommendations to encourage best practices in research software
 ---
 
 ## Background
