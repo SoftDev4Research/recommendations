@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Recommendations
+title: Recommendations to encourage best practices in research software
 ---
 
 #### 1. Develop publicly accessible open source code from day one ####
