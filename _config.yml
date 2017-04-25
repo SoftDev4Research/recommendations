@@ -25,6 +25,7 @@ description: We propose four simple recommendations aiming to raise the awarenes
 navbar-links:
   About: "about"
   Recommendations: ""
+  Fears: "fears"
   Supporters: "supporters"
   Endorse: "endorse"
 
