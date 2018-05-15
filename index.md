@@ -1,6 +1,7 @@
 ---
 layout: page
-title: Recommendations to encourage best practices in research software
+title: 4OSS recommendations
+subtitle: Recommendations to encourage best practices in research software
 ---
 
 #### 1. Develop publicly accessible open source code from day one ####
