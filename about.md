@@ -30,7 +30,7 @@ Proposed next steps:
  - Align specific best practices (eg. documentation) to the recommendations
  - Make this effort part of a wider initiative like [Force11](https://www.force11.org/) with links to other relevant initiatives like [WSSSPE](http://wssspe.researchcomputing.org.uk/) and [RDA](https://www.rd-alliance.org/)
 
-Pas meetings to discuss the group:
+Past meetings to discuss the group:
  - [RDA Ninth Plenary Meeting, Barcelona, Spain. 5-7 April 2017](https://www.rd-alliance.org/plenaries/rda-ninth-plenary-meeting-barcelona)
  - [Force11, Berlin, Germany. 25-27 October 2017](https://www.force11.org/meetings/force2017)
 
