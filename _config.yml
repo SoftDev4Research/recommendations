@@ -14,7 +14,7 @@ baseurl: "/recommendations"
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-# title: softdev4research
+title: 4OSS recommendations
 
 # Short description of your site
 description: We propose four simple recommendations aiming to raise the awareness of best practices and encouraging their adoption. These recommendations are designed around Open Source values, and provide practical suggestions that contribute to making research software and its source code more discoverable, reusable and transparent.
