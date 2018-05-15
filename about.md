@@ -24,17 +24,14 @@ The group includes a wide range of stakeholders including developers, managers, 
 More information about this Working Group and their outcomes can be found in the [SoftDev4Research GitHub site](https://github.com/SoftDev4Research/open-source-software).
 
 ## Next steps
-Proposed next steps:
  - Work towards adoption (endorsement, promotion and compliance)
- - Extend the recommendations to become truly [FAIR](http://www.nature.com/articles/sdata201618) recommendations
- - Align specific best practices (eg. documentation) to the recommendations
- - Make this effort part of a wider initiative like [Force11](https://www.force11.org/) with links to other relevant initiatives like [WSSSPE](http://wssspe.researchcomputing.org.uk/) and [RDA](https://www.rd-alliance.org/)
-
-Past meetings:
- - [RDA Ninth Plenary Meeting, Barcelona, Spain. 5-7 April 2017](https://www.rd-alliance.org/plenaries/rda-ninth-plenary-meeting-barcelona)
- - [Force11, Berlin, Germany. 25-27 October 2017](https://www.force11.org/meetings/force2017)
+ - Establish a collaboration between ELIXIR and Software Carpentry Foundation to create a set of training materials to help researchers and developers to comply with the 4OSS recommendations.
 
 Future meetings:
 - [CarpentryCon 2018, workshop, Dublin, Ireland 1st June 2018](https://github.com/carpentries/carpentrycon/blob/master/Sessions/2018-06-01/02-Workshop-2-Lesson-Hack-a-Thon-Voted-Session-From-Pitches/4OSS-lesson-development.md)
 - [Hackathon for writing the 4OSS lesson, Utrecht, The Netherlands 1st-3rd August 2018]
 - [Material reviews, NETTAB2018 in Genoa, Italy, 24th-25th October](http://www.igst.it/nettab/2018/)
+
+Past meetings:
+ - [RDA Ninth Plenary Meeting, Barcelona, Spain. 5-7 April 2017](https://www.rd-alliance.org/plenaries/rda-ninth-plenary-meeting-barcelona)
+ - [Force11, Berlin, Germany. 25-27 October 2017](https://www.force11.org/meetings/force2017)
