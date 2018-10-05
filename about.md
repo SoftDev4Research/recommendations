@@ -34,4 +34,4 @@ Past meetings:
  - [RDA Ninth Plenary Meeting, Barcelona, Spain. 5-7 April 2017](https://www.rd-alliance.org/plenaries/rda-ninth-plenary-meeting-barcelona)
  - [Force11, Berlin, Germany. 25-27 October 2017](https://www.force11.org/meetings/force2017)
  - [CarpentryCon 2018, workshop, Dublin, Ireland 1st June 2018](https://github.com/carpentries/carpentrycon/blob/master/Sessions/2018-06-01/02-Workshop-2-Lesson-Hack-a-Thon-Voted-Session-From-Pitches/4OSS-lesson-development.md)
-- [Hackathon for writing the 4OSS lesson, Utrecht, The Netherlands 1st-3rd August 2018]
+- [Hackathon for writing the 4OSS lesson, Utrecht, The Netherlands 1st-3rd August 2018](https://github.com/SoftDev4Research/4OSS-lesson)
